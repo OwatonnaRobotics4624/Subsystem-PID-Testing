@@ -1,0 +1,98 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.106846590909091,
+        "y": 7.171036931818182
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.4330567360480218,
+        "y": 5.752579856378544
+      },
+      "isLocked": false,
+      "linkedName": "coralStation"
+    },
+    {
+      "anchor": {
+        "x": 4.067880794701987,
+        "y": 5.238100165562913
+      },
+      "prevControl": {
+        "x": 2.6389425142880976,
+        "y": 6.402775669547569
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "ScoreTop2"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.44105523495465854,
+      "rotationDegrees": -60.060278256578435
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.5051229508196724,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 3.0,
+        "maxAcceleration": 2.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 540.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    },
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0,
+      "maxWaypointRelativePos": 0.6121648136036683,
+      "constraints": {
+        "maxVelocity": 3.0,
+        "maxAcceleration": 1.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "L4Position",
+      "waypointRelativePos": 0.20594262295081972,
+      "endWaypointRelativePos": 1.0,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "L4Position"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -61.23235066115619
+  },
+  "reversed": false,
+  "folder": "BlueBargeAuto",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 127.77568430595475
+  },
+  "useDefaultConstraints": true
+}
